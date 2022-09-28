@@ -17,18 +17,17 @@ header{
 }
 nav{
     width: 100%;
-    height: 60px;
+    height: 30px;
     padding: 7px;
     background: lightgreen;
     text-align: center;
 }
 nav ul{
     list-style: none;
-    
 }
 li{
     display: inline;
-    padding: 15px;
+    padding: 5px;
 }
 section{
     width: 78%;
@@ -37,26 +36,29 @@ section{
     background: lightsalmon;
     text-align: center;
     float: left;
+    border: 2px solid black;
 }
 aside{
-    width: 78%;
+    width: 22%;
     height: 600px;
     padding: 10px;
     background: lightseagreen;
     text-align: center;
     float: left;
+    border: 2px solid black;
 }
 footer{
-    width: 78%;
-    height: 600px;
+    width: 100%;
+    height: 50px;
     padding: 10px;
     background: lightpink;
     text-align: center;
-    clear: both;
+    float: left;
+    border: 2px solid black;
 }
 a{
     text-decoration: none;
-    width: 100px;
+    width:100px ;
     height: auto;
     color: white;
     background: black;
@@ -67,10 +69,11 @@ a:hover{
     transform: scale(1.1);
 }
 article{
-    width: 78%;
-    height: 600px;
+    width: 100%;
+    height: auto;
     padding: 10px;
-    margin-top: 20px;
+   margin-top: 20px;
     background: lightpink;
     text-align: center;
+    border: 2px solid black;
 }
