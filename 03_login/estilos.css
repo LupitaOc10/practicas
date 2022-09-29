@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    background: rgb(93,88,182);
+background: linear-gradient(90deg, rgba(93,88,182,1) 0%, rgba(9,66,121,1) 45%, rgba(0,212,255,1) 100%);
+}
+header{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    background: #fff;
+    border: 8px solid #fff;
+    border-radius: 100%;
+    position: relative;
+    top: 0px;
+    z-index: 1;
+}
+section{
+    width: 400px;
+    height: 550px;
+    background: #fff;
+    margin: auto;
+    border-radius: 30px;
+    padding: 30px;
+    position: relative;
+    top: 100px;
+    box-shadow:  0 0 20px black;
+}
+input{
+    display: block;
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    margin-top:30px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+input:focus{
+    box-shadow: 0 0 20px #000;
+}
+input::placeholder{
+    padding-left: 15px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+button{
+    width: 100px;
+    height: 40px;
+    margin: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    color: #fff;
+
+
+}
+button:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px gray;
+}
+.claro{
+    color: lightseagreen;
+    opacity: 0.5;
+
+}
+.mover{
+    margin-top: 30px;
+}
+.btn-login{
+    background: #d20000;
+}
+.btn-face{
+    background: #0b9cbd;
+}
+.btn-git{
+    background: #000;
+}
