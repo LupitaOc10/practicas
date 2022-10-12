@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    background: rgb(68,61,182);
+background: linear-gradient(90deg, rgba(68,61,182,1) 0%, rgba(11, 203, 171, 0.908) 46%);
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+color: #fff;
+}
+.cajita{
+    width: 300px;
+    height: auto;
+    background: teal;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+    text-align: justify;
+}
