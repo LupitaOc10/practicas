@@ -8,9 +8,9 @@ const verClima=async()=>{
         console.log("latitud" +latitud + ",longitud" + longitud);
         let url=`https://api.openweathermap.org/data/2.5/weather?lat=${latitud}&lon=${longitud}&appid=${apikey}&units=metric&lang=es`
         console.log(url);
-        const api=await fetch(url);
         const data=await api.json();
         console.log(data)
+        const api=await fetch(url);
         const urlIcon=`http://openweathermap.org/img/wn/${data.weather[0].icon}.png`
         divRes.innerHTML=`
         <h1>${data.name}</h1>

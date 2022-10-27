@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+         <title> Aplicación de consulta meteorológica nacional </ title>
+    <link rel="stylesheet" href="estilos.css"/>
+    <link rel="icon" href="favicon.ico"/>
+	
+</head>
+<body>
+<audio  autoplay loop="loop">
+	 <source src = "mp3 / Jardín Meteorológico de Haiwei.mp3">
+</audio>
+
+<header>
+         <h1> <font face = 'cursive' color = 'white'> <b> ❄ Jardín Meteorológico de Haiwei ❄ </ b> </ font> </ h1>
+    <div id="weather_search">
+                 <span> <input id = "text" type = "text" placeholder = "Ingrese la ciudad que desea consultar" /> </ span>
+                 <span> <input id = "btn" type = "button" value = "Verificar el clima" /> </ span>
+    </div>
+</header>
+    <section>
+	<font color='white'>
+        <div id="today_container">
+		
+            <div>
+                                 <img src = "./ images / weather_icon / 1.png" alt = "clima hoy" />
+            </div><p><font size='30'color='white'><b>☀ ☁ ☂ ❄</b></font></p>
+            <div>
+                                 <div class = "main_info"> <span class = "info"> Ciudad </ span> | <span class = "info"> 201X-XX-XX </ span> | <span class = "info"> Semana X </ span> | <span class = "info"> --- </ span> </ div>
+                                 <div class = "more_info"> Temperatura de hoy: <abarcan clase = "info"> ----- </ span> Fuerza del viento: <abarcan clase = "info"> ----- </ span> Dirección del viento: < span class = "info"> ----- </ span> PM2.5: <span class = "info"> - </ span> </ div>
+            </div>
+        </div>
+        <div id="future_container">
+            <div class="future_box">
+                                 <img src = "./ images / weather_icon / 1.png" alt = "weather" />
+                <span class="future_info">201X-XX-XX</span>
+                                 <span class = "future_info"> Semana X </ span>
+                <span class="future_info">--</span><span class="future_info">12-16℃</span>
+            </div>
+            <div class="future_box">
+                                 <img src = "./ images / weather_icon / 3.png" alt = "weather" />
+                <span class="future_info">201X-XX-XX</span>
+                                 <span class = "future_info"> Semana X </ span>
+                <span class="future_info">--</span><span class="future_info">12-16℃</span>
+            </div>
+            <div class="future_box">
+                                 <img src = "./ images / weather_icon / 2.png" alt = "weather" />
+                <span class="future_info">201X-XX-XX</span>
+                                 <span class = "future_info"> Semana X </ span>
+                <span class="future_info">--</span><span class="future_info">12-16℃</span>
+            </div>
+			
+            <div class="future_box">
+                                 <img src = "./ images / weather_icon / 4.png" alt = "weather" />
+                <span class="future_info">201X-XX-XX</span>
+                                 <span class = "future_info"> Semana X </ span>
+                <span class="future_info">--</span><span class="future_info">12-16℃</span>
+            </div>
+            <div class="future_box">
+                                 <img src = "images / weather_icon / 5.png" alt = "weather" />
+                <span class="future_info">201X-XX-XX</span>
+                                 <span class = "future_info"> Semana X </ span>
+                <span class="future_info">-</span><span class="future_info">12-16℃</span>
+            </div>
+			
+        </div>
+	</font>
+    </section>
+	
+    <footer>
+        <div>design and code by zsq</div>
+    </footer>
+    <script src="app.js"></script>
+	<div style="text-align:center;">
+	
+</div>
+
+</body>
+ </ html> 
